@@ -1,0 +1,192 @@
+* {
+  font-family: "montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #ff0080;
+}
+
+#container {
+  position: relative;
+  margin: auto;
+  display: grid;
+  grid-template-columns:  0.85fr auto;
+  width: 210mm;
+  height: 297mm;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7
+  );
+}
+
+#card-one {
+  padding: 20px 20px;
+  padding-left: 35px;
+  align-items: center; 
+  justify-content: center;
+  background-color: #faced7;
+  color: rgb(0, 0, 0);
+}
+
+#profile {
+text-align: center; 
+}
+
+#profile img {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 4px solid #00040c;
+  background-position: center top;
+  background-size: 100%;
+  
+}
+
+#name {
+  font-size: 23px;
+  line-height: 20px;
+}
+
+#about {
+  font-size: 20px;
+  text-align: center;
+}
+
+#name,
+#about > p {
+  font-weight: bolder;
+  font-family: "Open Sans", sans-serif;
+}
+
+#name,
+#social-links {
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+#designation{
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+#email {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Cutive Mono", monospace;
+}
+
+#college {
+  font-size: 16px;
+}
+#telephone {
+  color: #000000;
+  font-size: 13.5px;
+}
+
+#prof {
+  margin-bottom: 20px;
+}
+
+#more-about {
+  margin-bottom: 20px;
+}
+
+#skills {
+  margin-bottom: 20px;
+}
+
+#interests {
+  margin-bottom: 20px;
+}
+
+#languages {
+  margin-bottom: 20px;
+}
+
+#telephone {
+  margin-bottom: 20px;
+}
+
+#info-cards {
+ background-color: #fff9f9;
+ padding: 80px 20px;
+ padding-right: 25px;
+ 
+}
+
+.card {
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 30px 15px;
+  padding-right: 10px;
+  background-color: #fff;
+}
+
+.card > p {
+  color: #0e141e;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.card > p > i {
+  font-size: 18px;
+}
+
+.card > a {
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 25px;
+  color: #097bbf;
+  cursor: pointer;
+}
+
+.card > ul {
+  list-style-type: none;
+}
+
+.tags {
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.tags ~ a {
+  display: none;
+}
+
+.tags span {
+  font-size: 14px;
+  font-weight: normal;
+  color: #0e141e;
+}
+
+.tags span span {
+  color: #313131;
+}
+
+@media screen and (max-width: 1090px) {
+  #profile {
+      margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #container {
+      display: block;
+  }
+  #profile {
+      width: 90%;
+  }
+  .card {
+      margin: 0 5%;
+  }
+}
+
+
+
